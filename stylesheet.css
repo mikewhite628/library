@@ -1,0 +1,22 @@
+
+
+
+.book-box{
+    border: 1px solid black;
+    height: 180px;
+    width: 250px;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+
+.myform{
+    border: 1px solid black;
+    width: 200px;
+    height:250px;
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    visibility: hidden;
+    
+}
