@@ -1,0 +1,1 @@
+Used firebase for the backend along side a constructor for the book objects.
