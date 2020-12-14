@@ -12,19 +12,21 @@ let meLibrary = [];
 
 submitButton.addEventListener('click', addBookToLibrary)
 
-function Book(title, author, pages, read){
+class Book {
+    constructor(title, author, pages, read){
     this.title = title
     this.author = author
     this.pages = pages
     this.read = read 
 }
 
-Book.prototype.markComplete = function(){
+    markComplete = function(){
     this.read = 'complete'
 }
 
-Book.prototype.markIncomplete = function(){
+    markIncomplete = function(){
     this.read = 'incomplete'
+}
 }
 
 function addBookToLibrary() {
